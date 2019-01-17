@@ -4,7 +4,6 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using Okul.OkulTableAdapters;
 
 namespace Okul.Personel
 {
@@ -12,9 +11,16 @@ namespace Okul.Personel
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            OkulTableAdapters.DataTable1TableAdapter okul=new OkulTableAdapters.DataTable1TableAdapter();
-            repeater1.DataSource = okul.PersonelListesiGetir();
+
+            DataSet1TableAdapters.PersonelTableAdapter personel = new DataSet1TableAdapters.PersonelTableAdapter();
+            if (IsPostBack)
+            {
+                personel.EklePersonel(txtAd.Text,txtSoyad.Text,float.Parse(txtMaas.Text));
+            }
+            
+            repeater1.DataSource = personel.PersonelListesiGetir();
             repeater1.DataBind();
+            lblPersay.Text = personel.SayiPersonel().ToString();
         }
     }
 }

@@ -75,9 +75,16 @@
     <Content Include="assets\js\popper.min.js" />
     <Content Include="index.aspx" />
     <Content Include="Personel\index.aspx" />
+    <Content Include="Personel\personelGuncelle.aspx" />
+    <Content Include="Personel\personelSil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -85,20 +92,26 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Okul.cs">
-      <DependentUpon>Okul.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Okul.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Okul.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Personel\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Personel\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personel\personelGuncelle.aspx.cs">
+      <DependentUpon>personelGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personel\personelGuncelle.aspx.designer.cs">
+      <DependentUpon>personelGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Personel\personelSil.aspx.cs">
+      <DependentUpon>personelSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Personel\personelSil.aspx.designer.cs">
+      <DependentUpon>personelSil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
@@ -110,16 +123,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Okul.xsc">
-      <DependentUpon>Okul.xsd</DependentUpon>
+    <Content Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
-    <None Include="Okul.xsd">
+    <None Include="DataSet1.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>Okul.Designer.cs</LastGenOutput>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="Okul.xss">
-      <DependentUpon>Okul.xsd</DependentUpon>
+    <Content Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
     </Content>
     <None Include="packages.config" />
     <Content Include="Site1.Master" />
