@@ -33,7 +33,7 @@
                         <a class="nav-link" href="/Ogrenciler/index.aspx">Öğrenciler</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="/Siniflar/index.aspx">Sınıflar</a>
+                        <a class="nav-link " href="/Siniflar/SiniflarIndex.aspx">Sınıflar</a>
                     </li>
                 </ul>
             </div>
