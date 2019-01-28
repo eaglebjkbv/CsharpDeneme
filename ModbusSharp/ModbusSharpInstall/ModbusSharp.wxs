@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" UpgradeCode="B35FC8C0-A258-4175-96C1-D68062A505D6"
+
+           Name="Modbus RTU Test Program by BV" Version="0.0.1" Manufacturer="BV" Language="1033">
+    <Package InstallerVersion="200" Compressed="yes" Comments="Windows Installer Package"/>
+    <Media Id="1" Cabinet="product.cab" EmbedCab="yes"/>
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLDIR" Name="Example">
+          <Component Id="ApplicationFiles" Guid="FAE623EE-6E96-460D-91AF-5F78D6774776">
+            <File Id="ApplicationFile1" Source="..\ModbusSharp\bin\Debug\ModbusSharp.exe"/>
+          </Component>
+        </Directory>
+      </Directory>
+    </Directory>
+
+    <Feature Id="DefaultFeature" Level="1">
+      <ComponentRef Id="ApplicationFiles"/>
+    </Feature>
+  </Product>
+</Wix>
