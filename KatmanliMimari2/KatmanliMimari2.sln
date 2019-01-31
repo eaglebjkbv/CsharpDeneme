@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulDAL", "OkulDAL\OkulDAL.csproj", "{3A46D150-7F70-440C-958E-BF9A0B33E7BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OkulDesktop", "OkulDesktop\OkulDesktop.csproj", "{CD2EE37D-3229-4D8F-B39D-419D274B3249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A46D150-7F70-440C-958E-BF9A0B33E7BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A46D150-7F70-440C-958E-BF9A0B33E7BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A46D150-7F70-440C-958E-BF9A0B33E7BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A46D150-7F70-440C-958E-BF9A0B33E7BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2EE37D-3229-4D8F-B39D-419D274B3249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2EE37D-3229-4D8F-B39D-419D274B3249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2EE37D-3229-4D8F-B39D-419D274B3249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2EE37D-3229-4D8F-B39D-419D274B3249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED016F55-4229-4E71-836C-18E2BA377769}
+	EndGlobalSection
+EndGlobal
