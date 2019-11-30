@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModBusTCPClient", "ModBusTCPClient\ModBusTCPClient.csproj", "{487C151C-13C4-4034-A1EF-8B7C68C8813E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{487C151C-13C4-4034-A1EF-8B7C68C8813E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487C151C-13C4-4034-A1EF-8B7C68C8813E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487C151C-13C4-4034-A1EF-8B7C68C8813E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487C151C-13C4-4034-A1EF-8B7C68C8813E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA0C118F-0428-499C-9847-422AAE2380C1}
+	EndGlobalSection
+EndGlobal
