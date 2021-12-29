@@ -37,6 +37,9 @@ namespace ModbusTcpClient
                                 break;
                             }
                         }
+                        byte[] gelenDeger=new byte[2]{rData[10],rData[9]};
+                        ushort deger=BitConverter.ToUInt16(gelenDeger,0);
+                        Console.WriteLine($"Gelen Değer : {deger}");
                         Console.Read();
                         networkStream.Close();
                         tcpClient.Close();
